@@ -24,7 +24,8 @@ let plays = true
 function playAudio() {
     if (plays) {
         plays= false
-        var music = new Audio('./because of you .mp3');
+        var music = new Audio('./千禧.mp3');
+        music.loop=true
         music.play();
         console.log(music);
     }
