@@ -30,9 +30,9 @@ function initImg() {
     for (var i = 0; i < index; i++) {
         var src = 0
         if (Math.random() > 0.5) {
-            src = Math.floor(Math.random() * 6) + 1;
+            src = Math.floor(Math.random() * 13) + 1;
         } else {
-            src = "0" + (Math.floor(Math.random() * 6) + 1);
+            src = "0" + (Math.floor(Math.random() * 13) + 1);
         }
         var img = document.createElement("img")
         img.src = `./img/${src}.png`
